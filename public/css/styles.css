@@ -1,0 +1,215 @@
+/* Title Section */
+#title {
+  background-color: #fff;
+}
+
+h1 , h2 , h3 {
+  font-weight: bold;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0;
+}
+
+.container-fluid{
+  padding: 0 5%;
+}
+
+.navbar-brand {
+padding: 0 0;
+margin-left: 10%;
+position: relative;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+  font-weight:lighter;
+}
+
+.navbar-nav{
+  padding-right: 5%;
+}
+
+.text_titlu{
+padding-top: 7%;
+text-align: center;
+  position: static;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Images Title */
+.poza_cabana {
+position: relative;
+width: 100%;
+}
+
+/* About Section */
+
+#about {
+  padding-top: 40px;
+  text-align: justify;
+}
+
+
+hr {
+  border: none;
+border-top: 5px solid #3794FA;
+color: #fff;
+background-color: #fff;
+height: 5px;
+width: 40%;
+margin-left: 30%;
+text-align: center;
+}
+
+.about_title{
+  text-align: center;
+  font-size: 33px;
+  font-family: "Ubuntu";
+}
+
+/* Casa Cub Section */
+#casa_cub{
+  text-align: center;
+background-color: #212529;
+/* padding-bottom: 40px; */
+}
+.titlu_casa_cub{
+  color: #fff;
+  font-family: "Ubuntu";
+}
+
+.titlu_logo{
+  border-radius: 2%;
+}
+#colectiePozeCuburi{
+  width:auto;
+}
+
+/* Atractions Section */
+#atractions {
+  text-align: center;
+    font-family: "Ubuntu";
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
+#atractions, a {
+  color: #212529;
+  text-decoration: none;
+}
+
+#atractions, a:hover {
+  color: #495057;
+}
+
+#atractions h1 {
+  color: #212529;
+}
+
+
+.text_despre_partie {
+  text-align: justify;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 20px 0 5px 0;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  background-color: #212529;
+color: white;
+}
+
+.footer_icon{
+margin: 13px;
+font-size: 20px;
+color: white;
+font-weight: bolder;
+}
+
+/* Contact Section */
+#contact {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+#contactForm{
+  margin: 0 5%;
+}
+
+.contact_info{
+  text-align: left;
+  margin: 0 5% 0 15%;
+}
+
+/* Rezervare Section */
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Ubuntu';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 10px;
+  border: 4px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Ubuntu';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+
+.spatiu_rezervare{
+  padding: 5% 20%;
+}
+
+.spatiu_recenzie{
+  padding: 5% 20%;
+}
+
+.caseta_recenzie{
+  background-color: #fff;
+border: 3px double #fcb001;
+text-align: justify;
+padding: 0px 10px;
+}
+
+.nume_recenzie{
+  text-align: center;
+  padding-top: 5px;
+}

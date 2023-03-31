@@ -1,0 +1,64 @@
+<%- include("partials/header"); -%>
+    <hr />
+    <!-- <h1 class="text_titlu">casa cub</h1> -->
+
+    <!-- Title image -->
+
+    <section id="contact">
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h1>Rezervare</h1>
+      <hr />
+      <div class="spatiu_rezervare">
+
+        <form action="/rezervare" method="post">
+        <div class="elem-group">
+          <label for="name">Nume și prenume</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Nume și prenume" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="email@acasa.ro" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="07xx.xxx.xxx" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <div class="elem-group inlined">
+          <label for="adult">Adulți</label>
+          <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="child">Copii</label>
+          <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+        </div>
+        <div class="elem-group">
+          <label for="checkin-date">Check-in</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class="elem-group">
+          <label for="checkout-date">Check-out</label>
+          <input type="date" id="checkout-date" name="checkout" required>
+        </div>
+        <div class="elem-group">
+          <label for="room-selection">Alege un Cub</label>
+          <select id="room-selection" name="room_preference" required>
+              <option value="">Alege un Cub</option>
+              <option value="cubA">Cub A</option>
+              <option value="cubB">Cub B</option>
+          </select>
+        </div>
+        <hr>
+
+        <button class="btn btn-primary btn-lg btn-dark" type="submit">Rezervă</button>
+      </form>
+
+      </div>
+    </section>
+
+
+
+          <%- include("partials/footer"); -%>

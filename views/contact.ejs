@@ -1,0 +1,78 @@
+<%- include("partials/header"); -%>
+    <hr />
+    <!-- <h1 class="text_titlu">casa cub</h1> -->
+
+    <!-- Title image -->
+
+    <section id="contact">
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h1>Contact</h1>
+      <hr />
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <br />
+              <img src="image/titlu_logo.png" alt="Logo" width="180" height="180" class="titlu_logo">
+              <br />
+              <br />
+              <div class="contact_info">
+
+
+            <p>
+              <i class="social-icon fas fa-map-marker-alt"></i> Adresă: loc. Gălăuțaș, sat. Plopiș, nr. x, jud. Harghita
+            </p>
+            <p>
+              <i class="social-icon fas fa-phone"></i> Telefon: 0740.000.000 sau 0740.000.000
+            </p>
+            <p>
+              <i class="social-icon fas fa-envelope"></i> Email: casa_cub@yahoo.com
+            </p>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <!-- Wrapper container -->
+  <div class="container py-4">
+
+    <!-- Bootstrap 5 starter form -->
+    <form id="contactForm" action="/contact" method="post">
+
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Nume și prenume </label>
+        <input class="form-control" id="name" type="text" placeholder="Nume și prenume" name="contactName" required/>
+      </div>
+
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">E-mail </label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="E-mail" name="contactEmail" required />
+      </div>
+
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Mesaj</label>
+        <textarea class="form-control" id="message" name="contactMessage" type="text" placeholder="Mesaj" style="height: 10rem;" required></textarea>
+      </div>
+
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg btn-dark" type="submit">Trimite</button>
+      </div>
+
+    </form>
+
+  </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <%- include("partials/footer"); -%>

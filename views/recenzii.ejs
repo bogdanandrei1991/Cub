@@ -1,0 +1,39 @@
+<%- include("partials/header"); -%>
+    <hr />
+    <!-- <h1 class="text_titlu">casa cub</h1> -->
+
+    <!-- Title image -->
+
+    <section id="contact">
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h1>Recenzii</h1>
+      <hr />
+      <div class="spatiu_recenzie">
+
+        <h2> <%= inceputRecenzie %> </h2>
+<br />
+
+      <%  posts.forEach(function(post){ %>
+
+
+<div class="caseta_recenzie">
+<div class="nume_recenzie">
+  <h3><%=post.name%></h3>
+</div>
+        <p>
+        <%=post.content%>
+        </p>
+        </div>
+        <br />
+
+        <% }) %>
+
+      </div>
+    </section>
+
+
+
+      <%- include("partials/footer"); -%>

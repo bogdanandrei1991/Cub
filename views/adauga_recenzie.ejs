@@ -1,0 +1,36 @@
+<%- include("partials/header"); -%>
+    <hr />
+    <!-- <h1 class="text_titlu">casa cub</h1> -->
+
+    <!-- Title image -->
+
+    <section id="contact">
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h1>Adaugă o recenzie</h1>
+      <hr />
+
+      <div class="spatiu_recenzie">
+
+          <form class="" action="/adauga_recenzie" method="post">
+          <div class="elem-group">
+            <label for="name">Nume și prenume</label>
+            <input type="text" id="name" name="postName" placeholder="Nume și prenume" pattern=[A-Z\sa-z]{3,20} required>
+          </div>
+          <div class="elem-group">
+            <label for="recenzie">Mesaj</label>
+              <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+          </div>
+
+          <hr>
+
+          <button class="btn btn-primary btn-lg btn-dark" type="submit">Adaugă recenzie</button>
+        </form>
+
+        </div>
+    </section>
+
+
+    <%- include("partials/footer"); -%>
